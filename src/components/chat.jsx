@@ -6,7 +6,7 @@ import { UserContext } from '../context/user';
 const Chat = ({ chatId, setChatId }) => {
   const userInfo = useContext(UserContext);
   const [messages, setMessages] = useState([]);
-  const [modelName, setModelName] = useState('Mock');
+  const [modelName, setModelName] = useState('MentalLlm');
   const [inputText, setInputText] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
